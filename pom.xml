@@ -70,26 +70,36 @@
     <module>opendaylight/sal/networkconfiguration/implementation</module>
 
     <!-- md-sal -->
+    <!--
     <module>opendaylight/md-sal</module>
+    -->
     <!-- config -->
     <module>opendaylight/config</module>
     <!-- netconf -->
+    <!--
     <module>opendaylight/netconf</module>
+    -->
 
     <!--  Web bundles -->
+    <module>opendaylight/web/root2</module>
+    <!--
     <module>opendaylight/web/root</module>
     <module>opendaylight/web/flows</module>
     <module>opendaylight/web/devices</module>
     <module>opendaylight/web/troubleshoot</module>
     <module>opendaylight/web/topology</module>
     <module>opendaylight/web/osgi-brandfragment</module>
+    -->
 
     <!--  Neutron -->
+    <!--
     <module>opendaylight/networkconfiguration/neutron</module>
     <module>opendaylight/networkconfiguration/neutron/implementation</module>
     <module>opendaylight/northbound/networkconfiguration/neutron</module>
+    -->
 
     <!-- Northbound bundles -->
+    <!--
     <module>opendaylight/northbound/commons</module>
     <module>opendaylight/northbound/bundlescanner/api</module>
     <module>opendaylight/northbound/bundlescanner/implementation</module>
@@ -107,6 +117,7 @@
     <module>opendaylight/northbound/connectionmanager</module>
     <module>opendaylight/northbound/usermanager</module>
     <module>opendaylight/northbound/controllermanager</module>
+    -->
 
     <!-- Debug and logging -->
     <module>opendaylight/logging/bridge</module>
@@ -116,9 +127,11 @@
     <module>opendaylight/protocol_plugins/stub</module>
 
     <!-- Samples -->
+    <!--
     <module>opendaylight/samples/simpleforwarding</module>
     <module>opendaylight/samples/loadbalancer</module>
     <module>opendaylight/samples/northbound/loadbalancer</module>
+    -->
 
     <!-- Parents -->
     <module>opendaylight/commons/concepts</module>
@@ -137,18 +150,22 @@
                <activeByDefault>false</activeByDefault>
            </activation>
             <modules>
+              <!--
                 <module>opendaylight/clustering/integrationtest</module>
                 <module>opendaylight/configuration/integrationtest</module>
                 <module>opendaylight/forwardingrulesmanager/integrationtest</module>
                 <module>opendaylight/hosttracker/integrationtest</module>
                 <module>opendaylight/switchmanager/integrationtest</module>
                 <module>opendaylight/topologymanager/integrationtest</module>
+                -->
                 <!-- Northbound integration tests -->
+                <!--
                 <module>opendaylight/northbound/integrationtest</module>
                 <module>opendaylight/statisticsmanager/integrationtest</module>
                 <module>opendaylight/commons/integrationtest</module>
                 <module>opendaylight/containermanager/it.implementation</module>
                 <module>opendaylight/distribution/sanitytest/</module>
+                -->
             </modules>
         </profile>
         <profile>
